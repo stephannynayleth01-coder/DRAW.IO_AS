@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="RoGtXc7CFWSWjYkH9uI2">
+    <mxGraphModel dx="1414" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-1" edge="1" parent="1" source="Xd5yHgbwoN0Ry2ebnWgx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.579;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;exitPerimeter=0;" target="Xd5yHgbwoN0Ry2ebnWgx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-11" edge="1" parent="1" source="Xd5yHgbwoN0Ry2ebnWgx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" x="0.1924" as="geometry">
+            <mxPoint x="460" y="41.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-12" edge="1" parent="1" source="Xd5yHgbwoN0Ry2ebnWgx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.426;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;exitPerimeter=0;" target="Xd5yHgbwoN0Ry2ebnWgx-4">
+          <mxGeometry relative="1" x="-0.0698" as="geometry" />
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-14" edge="1" parent="1" source="Xd5yHgbwoN0Ry2ebnWgx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.65;exitY=0.995;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;exitPerimeter=0;" target="Xd5yHgbwoN0Ry2ebnWgx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#FFD7E9;strokeColor=#EB89B5;" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;0&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;RPG Manager&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="195" width="200" x="360" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFBF3;strokeColor=#FFF8D2;" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;Jugador&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="302.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFBF3;strokeColor=#FFF8D2;" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;Game Master&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="302.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFBF3;strokeColor=#FFF8D2;" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;Servicio de respaldo en la Nube&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFBF3;strokeColor=#FFF8D2;" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;Servicio de correo&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-7" edge="1" parent="1" source="Xd5yHgbwoN0Ry2ebnWgx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="Xd5yHgbwoN0Ry2ebnWgx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-16" connectable="0" parent="Xd5yHgbwoN0Ry2ebnWgx-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;div&gt;&lt;font face=&quot;Georgia&quot;&gt;F1 datos de registro&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Georgia&quot;&gt;F2 datos del personaje&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Georgia&quot;&gt;F3 acción de combate&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Georgia&quot;&gt;F10&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font face=&quot;Georgia&quot;&gt;Credenciales de acceso&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font face=&quot;Georgia&quot;&gt;(usuario y contraseña)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.8004" y="-1" as="geometry">
+            <mxPoint x="80" y="-68" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-17" connectable="0" parent="Xd5yHgbwoN0Ry2ebnWgx-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Georgia&quot;&gt;F4 resultado del combate&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Georgia&quot;&gt;F5 ranking de la Arena&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.8004" y="-1" as="geometry">
+            <mxPoint x="80" y="72" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-18" connectable="0" parent="Xd5yHgbwoN0Ry2ebnWgx-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;font face=&quot;Georgia&quot;&gt;F8 correo de confirmación&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Georgia&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.8004" y="-1" as="geometry">
+            <mxPoint x="370" y="-188" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-19" connectable="0" parent="Xd5yHgbwoN0Ry2ebnWgx-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;div&gt;&lt;font face=&quot;Georgia&quot;&gt;&lt;div&gt;F9 copia de seguridad&lt;/div&gt;&lt;div&gt;de partidas&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.8004" y="-1" as="geometry">
+            <mxPoint x="380" y="172" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-20" connectable="0" parent="Xd5yHgbwoN0Ry2ebnWgx-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;div&gt;F11 Datos de la partida&amp;nbsp;&lt;/div&gt;&lt;div&gt;guardada&lt;/div&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.8004" y="-1" as="geometry">
+            <mxPoint x="180" y="192" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-21" connectable="0" parent="Xd5yHgbwoN0Ry2ebnWgx-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;div&gt;F7 reporte de actividad&lt;/div&gt;&lt;div&gt;de jugadores&lt;/div&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.8004" y="-1" as="geometry">
+            <mxPoint x="470" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-22" connectable="0" parent="Xd5yHgbwoN0Ry2ebnWgx-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;font face=&quot;Georgia&quot;&gt;F6 datos de la misión&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.8004" y="-1" as="geometry">
+            <mxPoint x="470" y="62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-13" edge="1" parent="1" source="Xd5yHgbwoN0Ry2ebnWgx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.01;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="Xd5yHgbwoN0Ry2ebnWgx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xd5yHgbwoN0Ry2ebnWgx-15" edge="1" parent="1" source="Xd5yHgbwoN0Ry2ebnWgx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.35;entryY=0.979;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="Xd5yHgbwoN0Ry2ebnWgx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
