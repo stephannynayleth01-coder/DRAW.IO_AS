@@ -72,3 +72,41 @@ Decisión sin cobertura completa de guardas. Un rombo de decisión no puede tene
 Un nodo Fork (barra negra que abre caminos paralelos) debe converger obligatoriamente en un nodo Join antes de terminar. Dejar que cada rama termine por separado en su propio nodo final rompe el control de sincronización en UML. Un Fork (la barra negra horizontal o vertical) representa acciones que el sistema hace al mismo tiempo (en paralelo).
 # Error 3: 
 Acción ubicada en el carril incorrecto. La acción es una operación lógica/matemática que procesa el sistema, por lo que debe ubicarse en el carril del RPG Manager, no en el carril del Jugador.
+
+
+
+# PREGUNTAS DE REFLEXIÓN 
+## 1. ¿Por qué el diagrama de contexto no muestra la base de datos del RPG Manager si el sistema sí la usa? 
+Porque el diagrama de contexto (nivel 0) trata al sistema completo como una caja negra. Su único objetivo es mostrar las entidades externas que están fuera de nuestro control y los datos que cruzan la frontera del sistema. La base de datos es un elemento interno e infraestructura propia del sistema, por lo que no se dibuja a este nivel (aparece más adelante, a partir de los DFD de nivel 1).
+
+## 2. ¿Cuál es la diferencia entre el flujo de datos "datos del personaje" y el caso de uso "Crear Personaje"? 
+- "Datos del personaje" es un flujo de datos (un sustantivo con información que viaja, como el nombre o la clase que el usuario introduce).
+- "Crear Personaje" es un caso de uso (una meta funcional expresada como verbo + sustantivo que describe el objetivo que el jugador logra interactuando con el sistema).
+En resumen: los datos son la información que se transporta, y el caso de uso es el proceso o funcionalidad que se ejecuta con ellos.
+  
+## 3. Da un ejemplo propio del RPG Manager de «include» y otro de «extend» que no estén en este taller. 
+- Ejemplo de «include» (obligatorio): CU-Comprar en Tienda «include» CU-Verificar Saldo de Monedas. Cada vez que el jugador intenta comprar algo, el sistema siempre, obligatoriamente, tiene que verificar si le alcanza el dinero.
+- Ejemplo de «extend» (opcional): CU-Combatir en la Arena «extend» CU-Invitar Amigo a Espectar. La invitación a un amigo es un comportamiento opcional que solo ocurre si el jugador decide hacerlo en medio del proceso.
+- 
+## 4. ¿Qué información aporta el diagrama de actividades que el de casos de uso no puede mostrar? 
+El diagrama de casos de uso solo muestra qué puede hacer cada actor a grandes rasgos ("la foto general"). En cambio, el diagrama de actividades muestra el cómo paso a paso: detalla el flujo secuencial, las decisiones lógicas con sus respectivas guardas, los ciclos o bucles (como cuando se repiten las rondas de combate), el paralelismo (fork/join) y la distribución exacta de responsabilidades entre los carriles de los actores y el sistema.
+
+## 5. El paso "Calcular daño al oponente" será un método en POO. ¿En qué clase crees que vive y por qué? 
+Lo más probable es que viva en una clase de control de lógica como Combate o Batalla, o bien como parte de un servicio de reglas del juego. Porque para calcular el daño se necesitan los atributos de ambas partes (el ataque del atacante y la defensa del oponente). Poner este cálculo en una clase mediadora o controladora evita acoplar demasiado las clases individuales y mantiene una separación limpia de responsabilidades.
+
+## 6. ¿Cuándo preferirías PlantUML y cuándo draw.io en un proyecto real? 
+- Prefiero PlantUML cuando estoy trabajando en equipo dentro de un repositorio de código y necesito documentar rápido, ya que al escribirse como texto plano se versiona excelente en Git (git diff muestra exactamente qué línea cambió).
+- Prefiero draw.io cuando necesito hacer presentaciones ejecutivas, explicar el sistema a clientes o usuarios no técnicos, o cuando requiero un control visual total sobre la estética, colores, tamaños y la posición exacta de cada figura.
+
+## Autoevaluación
+Marca con una **X** la opción que mejor represente tu nivel de comprensión.
+
+| Tema | 😕 No entendí | 🙂 Más o menos | 😄 ¡Lo tengo! |
+|---|:---:|:---:|:---:|
+| Manejo básico de draw.io (figuras, conectores y guardar) | ☐ | ☐ | [x]|
+| Diagrama de contexto y flujos de datos | ☐ | ☐ | [x] |
+| Actores y casos de uso | ☐ | ☐ | [x] |
+| «include», «extend» y generalización | ☐ | ☐ | [x] |
+| Decisiones, guardas y carriles | ☐ | ☐ | [x] |
+| Fork / Join | ☐ | [x] | ☐ |
+| Exportar y versionar en GitHub | ☐ | ☐ | [x] |
