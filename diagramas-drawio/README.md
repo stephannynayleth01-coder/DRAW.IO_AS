@@ -50,3 +50,8 @@ Error 3: _La relación «include» está invertida. La flecha punteada de «incl
 
 Error 4: Existe una asociación directa entre dos actores (Jugador y Game Master). En un diagrama de casos de uso UML no se permite conectar dos actores directamente mediante una línea de asociación; la interacción entre actores externos siempre debe realizarse indirectamente a través del sistema mediante un caso de uso.
 
+## EJERCICIO 3A: ¿Y si se acaban las pociones? 
+El paso 10 asume que el Jugador siempre tiene pociones. Agrega una decisión antes de "Restaurar vida". 
+¿En qué carril va la decisión? En el carril de RPG Manager, técnicamente el sistema valida las existencias.
+Guarda 1: [tiene pociones > 0]  →  ¿a qué acción va? A la acción "Restaurar vida del Personaje".
+Guarda 2: [pociones == 0]  →  ¿a qué acción va? Salta la restauración y va directamente al rombo de Unión (paso 11) o muestra la acción "Informar: Sin pociones".
