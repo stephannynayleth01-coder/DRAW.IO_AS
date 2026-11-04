@@ -43,7 +43,10 @@ Este diagrama tiene cuatro errores. Identifícalos:
 - Hay una asociación directa entre el actor Jugador y el actor Game Master. 
 
 Error 1: "Inventario" es un sustantivo, no un caso de uso. Un caso de uso debe representar una meta funcional expresada como verbo + sustantivo.
+
 Error 2: El actor Game Master está dibujado dentro del límite del sistema. Los actores representan entidades o roles externos que interactúan con el sistema, por lo que conceptual y gráficamente deben ubicarse fuera del rectángulo del límite del sistema.
+
 Error 3: _La relación «include» está invertida. La flecha punteada de «include» debe salir siempre desde el caso de uso base (CU-03 Crear Personaje) hacia el caso de uso incluido (CU-04 Elegir clase).
+
 Error 4: Existe una asociación directa entre dos actores (Jugador y Game Master). En un diagrama de casos de uso UML no se permite conectar dos actores directamente mediante una línea de asociación; la interacción entre actores externos siempre debe realizarse indirectamente a través del sistema mediante un caso de uso.
 
