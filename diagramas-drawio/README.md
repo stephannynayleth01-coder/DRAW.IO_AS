@@ -26,3 +26,24 @@ Error 3: No debe existir una conexión directa entre Jugador y Game Master, porq
 - [x] Ninguna flecha conecta dos entidades externas entre sí.
 - [x] No hay bases de datos.
 
+## EJERCICIO 2A: Generalización de actores
+El RPG Manager tendrá un Jugador Premium que puede hacer todo lo del Jugador y además Comprar ítem exclusivo. 
+Agrega el actor Jugador Premium y conéctalo a Jugador con una generalización. 
+Agrega el caso de uso CU-13 Comprar ítem exclusivo asociado solo al Jugador Premium. 
+## ¿Hacia dónde apunta el triángulo vacío y por qué?
+Apunta hacia el actor general (Jugador). En UML, la flecha de generalización (flecha con punta de triángulo no rellenado) siempre apunta desde el elemento especializado (Jugador Premium) hacia el elemento superclase o general (Jugador) para indicar que el primero hereda la estructura y comportamientos del segundo. 
+## ¿Por qué el Jugador Premium NO necesita líneas a CU-01 … CU-10?
+Porque hereda automáticamente todas las asociaciones de su actor padre (Jugador). En UML, un actor especializado dispone de todos los casos de uso con los que se relaciona el actor general del cual deriva, por lo que solo es necesario trazarle líneas hacia sus casos de uso exclusivos (en este caso, a CU-13 Comprar ítem exclusivo).
+
+## BUG A CORREGIR 
+Este diagrama tiene cuatro errores. Identifícalos: 
+- Hay un caso de uso llamado "Inventario". 
+- El actor Game Master está dibujado DENTRO del rectángulo del sistema. 
+- La flecha «include» va de CU-04 Elegir clase hacia CU-03 Crear Personaje. 
+- Hay una asociación directa entre el actor Jugador y el actor Game Master. 
+
+Error 1: "Inventario" es un sustantivo, no un caso de uso. Un caso de uso debe representar una meta funcional expresada como verbo + sustantivo.
+Error 2: El actor Game Master está dibujado dentro del límite del sistema. Los actores representan entidades o roles externos que interactúan con el sistema, por lo que conceptual y gráficamente deben ubicarse fuera del rectángulo del límite del sistema.
+Error 3: _La relación «include» está invertida. La flecha punteada de «include» debe salir siempre desde el caso de uso base (CU-03 Crear Personaje) hacia el caso de uso incluido (CU-04 Elegir clase).
+Error 4: Existe una asociación directa entre dos actores (Jugador y Game Master). En un diagrama de casos de uso UML no se permite conectar dos actores directamente mediante una línea de asociación; la interacción entre actores externos siempre debe realizarse indirectamente a través del sistema mediante un caso de uso.
+
