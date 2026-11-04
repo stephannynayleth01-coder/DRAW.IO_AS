@@ -15,10 +15,8 @@ Un compañero entregó un diagrama de contexto con estos elementos. Encuentra lo
 
 # Error 1: 
 La Base de datos de Personajes no debe representarse como una entidad externa, porque es un componente interno del sistema y no un actor externo.
-
 # Error 2: 
 La etiqueta «Crear Personaje» representa una acción o proceso, no un flujo de datos. Debería utilizarse «Datos del personaje» o «Solicitud de creación de personaje».
-
 # Error 3: 
 No debe existir una conexión directa entre Jugador y Game Master, porque toda comunicación debe pasar por el sistema RPG Manager.
 
@@ -47,24 +45,22 @@ Este diagrama tiene cuatro errores. Identifícalos:
 
 # Error 1: 
 "Inventario" es un sustantivo, no un caso de uso. Un caso de uso debe representar una meta funcional expresada como verbo + sustantivo.
-
 # Error 2: 
 El actor Game Master está dibujado dentro del límite del sistema. Los actores representan entidades o roles externos que interactúan con el sistema, por lo que conceptual y gráficamente deben ubicarse fuera del rectángulo del límite del sistema.
-
 # Error 3: 
 La relación «include» está invertida. La flecha punteada de «include» debe salir siempre desde el caso de uso base (CU-03 Crear Personaje) hacia el caso de uso incluido (CU-04 Elegir clase).
-
 # Error 4: 
 Existe una asociación directa entre dos actores (Jugador y Game Master). En un diagrama de casos de uso UML no se permite conectar dos actores directamente mediante una línea de asociación; la interacción entre actores externos siempre debe realizarse indirectamente a través del sistema mediante un caso de uso.
 
 ## EJERCICIO 3A: ¿Y si se acaban las pociones? 
 El paso 10 asume que el Jugador siempre tiene pociones. Agrega una decisión antes de "Restaurar vida". 
 ¿En qué carril va la decisión? En el carril de RPG Manager, técnicamente el sistema valida las existencias.
+
 Guarda 1: [tiene pociones > 0]  →  ¿a qué acción va? A la acción "Restaurar vida del Personaje".
+
 Guarda 2: [pociones == 0]  →  ¿a qué acción va? Salta la restauración y va directamente al rombo de Unión (paso 11) o muestra la acción "Informar: Sin pociones".
 
 ## BUG A CORREGIR 
-
 Encuentra los tres errores de este diagrama de actividades: 
 Un rombo "¿Tiene flechas?" con una sola salida etiquetada [sí]. 
 Un fork abre dos caminos que terminan cada uno en su propio nodo final, sin join. 
